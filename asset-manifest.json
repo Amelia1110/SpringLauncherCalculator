@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/SpringLauncherCalculator/static/css/main.80190e2e.css",
+    "main.js": "/SpringLauncherCalculator/static/js/main.59c3321c.js",
+    "static/js/453.e67cbde3.chunk.js": "/SpringLauncherCalculator/static/js/453.e67cbde3.chunk.js",
+    "index.html": "/SpringLauncherCalculator/index.html",
+    "main.80190e2e.css.map": "/SpringLauncherCalculator/static/css/main.80190e2e.css.map",
+    "main.59c3321c.js.map": "/SpringLauncherCalculator/static/js/main.59c3321c.js.map",
+    "453.e67cbde3.chunk.js.map": "/SpringLauncherCalculator/static/js/453.e67cbde3.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.80190e2e.css",
+    "static/js/main.59c3321c.js"
+  ]
+}
