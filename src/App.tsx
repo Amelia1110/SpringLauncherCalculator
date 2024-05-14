@@ -46,7 +46,7 @@ function App() {
             </div>
           </div>
           <div className="py-2">
-            <p>Height - Floor to Spring Vertical (cm)</p>
+            <p>Height - Surface to Spring Vertical (cm)</p>
             <input required type="number" name="springHeight" className="bg-gray-100 p-2 text-black h-8 w-full rounded-md" step="any"/>
           </div>
           <div className="py-2">
