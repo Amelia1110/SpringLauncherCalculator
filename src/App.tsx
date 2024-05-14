@@ -18,8 +18,9 @@ function App() {
     const k = Number(formJson.k);
     const m = Number(formJson.m) / 1000;
     const angle = Number(formJson.angle) * Math.PI / 180.0;
-    const distanceX = Number(formJson.distanceX);
-    const distanceY = Number(formJson.distanceY);
+    const springHeight = Number(formJson.springHeight);
+    const distanceX = Number(formJson.distanceX) / 100;
+    const distanceY = (Number(formJson.distanceY) / 100) - springHeight;
 
     const x = Math.sqrt((-4.9 * m * Math.pow(distanceX, 2))/(k * Math.pow(Math.cos(angle), 2) * (distanceY - (Math.tan(angle) * distanceX))));
 
@@ -45,15 +46,19 @@ function App() {
             </div>
           </div>
           <div className="py-2">
+            <p>Height - Floor to Spring Vertical (cm)</p>
+            <input required type="number" name="springHeight" className="bg-gray-100 p-2 text-black h-8 w-full rounded-md" step="any"/>
+          </div>
+          <div className="py-2">
             <p>Angle</p>
             <input required type="number" name="angle" className="bg-gray-100 p-2 text-black h-8 w-full rounded-md" step="any"/>
           </div>
           <div className="py-2">
-            <p>Distance - Horizontal</p>
+            <p>Distance (cm) - Horizontal</p>
             <input required type="number" name="distanceX" className="bg-gray-100 p-2 text-black h-8 w-full rounded-md" step="any"/>
           </div>
           <div className="py-2">
-            <p>Distance - Vertical</p>
+            <p>Distance (cm) - Vertical</p>
             <input required type="number" name="distanceY" className="bg-gray-100 p-2 text-black h-8 w-full rounded-md" step="any"/>
           </div>
           <div className="flex gap-2 pt-6">
