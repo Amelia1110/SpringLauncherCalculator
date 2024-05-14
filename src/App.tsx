@@ -30,7 +30,7 @@ function App() {
   return (
     <div className="grid gap-4 place-content-center h-screen bg-slate-900 text-white">
       <img className="absolute bottom-0 right-0 h-full w-full" src="space.avif" alt="bongo cat gif"/>
-      <div className="h-full w-full p-10 z-10 bg-opacity-50 rounded-lg bg-black">
+      <div className="h-full w-full p-10 z-10 bg-opacity-30 rounded-lg bg-white">
         <div className="flex justify-center">
           <h1 className="text-xl font-semibold">Spring Launcher Calculator</h1>
         </div>
