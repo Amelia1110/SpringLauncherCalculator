@@ -18,7 +18,7 @@ function App() {
     const k = Number(formJson.k);
     const m = Number(formJson.m) / 1000;
     const angle = Number(formJson.angle) * Math.PI / 180.0;
-    const springHeight = Number(formJson.springHeight);
+    const springHeight = Number(formJson.springHeight) / 100;
     const distanceX = Number(formJson.distanceX) / 100;
     const distanceY = (Number(formJson.distanceY) / 100) - springHeight;
 
